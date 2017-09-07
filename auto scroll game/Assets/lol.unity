@@ -209,6 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b39d4c8e6e2c66468c62b2b191eb317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 2017663702}
 --- !u!1 &1763166730
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,7 +384,7 @@ MeshRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2017663698}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -452,6 +453,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2017663704}
+  fowardForce: 1000
+  sideForce: 500
 --- !u!54 &2017663704
 Rigidbody:
   m_ObjectHideFlags: 0
